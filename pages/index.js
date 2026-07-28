@@ -115,7 +115,7 @@ export default function EncodingEffect(){
           <strong style={{color:TX,fontSize:14}}>RN Collins</strong><br/>
           Neuroscientist (Harvard Business School, BU School of Medicine) &nbsp;·&nbsp; JD Candidate, Northeastern University School of Law<br/>
           Published behavioral science research &nbsp;·&nbsp; Staff Writer, Fat Nugs Magazine &nbsp;·&nbsp; Contributor, Journal of Biophilic Design<br/>
-          <a href="mailto:collins.ra@northeastern.edu" style={{color:AM}}>collins.ra@northeastern.edu</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/rn-collins" target="_blank" rel="noreferrer" style={{color:AM}}>linkedin.com/in/rn-collins</a>
+          <button onClick={()=>setInquiryOpen(true)} style={{color:AM,background:'none',border:'none',padding:0,font:'inherit',textDecoration:'underline',cursor:'pointer'}}>Contact</button> &nbsp;·&nbsp; <a href="https://linkedin.com/in/rn-collins" target="_blank" rel="noreferrer" style={{color:AM}}>linkedin.com/in/rn-collins</a>
         </div>
             <InquiryModal source="encoding-effect" externalOpen={inquiryOpen} onExternalClose={()=>setInquiryOpen(false)}/>
     </main>
