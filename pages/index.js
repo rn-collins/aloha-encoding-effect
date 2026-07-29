@@ -117,6 +117,21 @@ export default function EncodingEffect(){
           Published behavioral science research &nbsp;·&nbsp; Staff Writer, Fat Nugs Magazine &nbsp;·&nbsp; Contributor, Journal of Biophilic Design<br/>
           <button onClick={()=>setInquiryOpen(true)} style={{color:AM,background:'none',border:'none',padding:0,font:'inherit',textDecoration:'underline',cursor:'pointer'}}>Contact</button> &nbsp;·&nbsp; <a href="https://linkedin.com/in/rn-collins" target="_blank" rel="noreferrer" style={{color:AM}}>linkedin.com/in/rn-collins</a>
         </div>
+
+        {/* Related tools */}
+        <div style={{marginTop:48,paddingTop:32,borderTop:`1px solid ${BD}`}}>
+          <div style={{fontFamily:'Syne',fontSize:10,fontWeight:600,letterSpacing:'0.15em',textTransform:'uppercase',color:AM,marginBottom:16}}>Related Tools</div>
+          <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(200px,1fr))',gap:14}}>
+            {[
+              {title:'Behavioral Intelligence Layer',desc:'Maps screen culture moments to consumer behavior with live commercial signal data.',href:'https://aloha-behavioral-intelligence.vercel.app'},
+              {title:'Culture Intelligence Monitor',desc:'A sourced, dated monitor for tracking culture and workplace signal across teams.',href:'https://aloha-culture-monitor.vercel.app'},
+              {title:'Creator Rights Framework',desc:'A governance check for AI, likeness, and disclosure risk before creator activation.',href:'https://aloha-creator-rights.vercel.app'}
+            ].map(t=>(<a key={t.href} href={t.href} target="_blank" rel="noopener noreferrer" style={{display:'block',padding:'18px 20px',background:'white',border:`1px solid ${BD}`,borderRadius:6,textDecoration:'none'}}>
+              <div style={{fontFamily:'Syne',fontSize:14,fontWeight:700,color:TX,marginBottom:6}}>{t.title}</div>
+              <div style={{fontFamily:'Manrope',fontSize:13,color:MU,lineHeight:1.5}}>{t.desc}</div>
+            </a>))}
+          </div>
+        </div>
             <InquiryModal source="encoding-effect" externalOpen={inquiryOpen} onExternalClose={()=>setInquiryOpen(false)}/>
     </main>
 
