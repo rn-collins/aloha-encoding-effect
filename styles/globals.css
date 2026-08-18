@@ -1,1 +1,3 @@
-*{box-sizing:border-box;margin:0;padding:0}html,body{font-family:'Manrope',-apple-system,sans-serif;background:#F6F3EC}
+*{box-sizing:border-box;margin:0;padding:0}html,body{font-family:Manrope,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#F6F3EC;color:#1C1B1F}button,a{font:inherit}:focus-visible{outline:3px solid #B8842A;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto !important}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important}}
+@media print{header,.filters,.reset,.contact,footer{display:none !important}body,.tool{background:#fff !important;color:#000 !important}.tool{margin:24px 0 !important;padding:24px !important;border:1px solid #777}.tool p,.dimension p,.fine{color:#222 !important}main{width:100% !important;padding:0 !important}.evidence,.twocol article{break-inside:avoid}a{text-decoration:none;color:#000}}
