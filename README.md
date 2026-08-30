@@ -6,7 +6,7 @@ A sourced, interactive hypothesis about how screen worlds may become self-releva
 
 ## Repository contents
 
-`components`, `next.config.js`, `package.json`, `pages`, `public`, `styles`, `vercel.json`
+`components`, `next.config.js`, `package.json`, `pages`, `patch-encoding-effect.js`, `patch-inquiry.js`, `public`, `styles`, `vercel.json`
 
 ## Local development
 
